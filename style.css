@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(44, 64, 97) 60%, rgba(2, 0, 36, 1) 100%);
+    /* background: rgb(102, 101, 107); */
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    /* box-shadow: 10px 10px 7px #aaaaaa; */
+    animation: float 3s ease-in-out infinite;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 0px 20px 20px 0px;
+}
+
+form h3 {
+    background-color: #18184b;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline-end: auto;
+    padding: 12px;
+    margin-top: revert;
+    border-radius: 0px 20px 20px 0px;
+}
+
+form h2 {
+    font-size: 2rem;
+    color: rgb(24, 24, 75);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+.box {
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit {
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #18184b;
+    border: none;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #0f0f0f;
+}
+
+form a {
+    text-decoration: none;
+    color: grey;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(2, 0, 36); */
+    background: linear-gradient(90deg, rgb(182, 182, 227) 0%, rgb(44, 64, 97) 60%, rgba(2, 0, 36, 1) 100%);
+    /* background-color: #aca5a5; */
+    border-radius: 20px 0px 0px 20px;
+}
+
+.side img {
+    width: 400px;
+    height: 450px;
+}
